@@ -55,10 +55,8 @@ const windFive = document.getElementById('w-wind-five');
 const saveBtn = document.getElementById('w-change-btn');
 const apiKey = '711aa0e2365e7ec3ebd005a28ed7fc95';
 
-// saveBtn.addEventListener('click', changeLocation);
 saveBtn.addEventListener('click', getCurrentWeather);
-// getLocationData();
-// saveBtn.addEventListener('click', setLocationData);
+
 document.addEventListener('DOMContentLoaded', getDefaultWeather);
 
 saveBtn.addEventListener('click', (e) => {
