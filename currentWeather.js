@@ -3,7 +3,7 @@ function getCurrentWeather() {
   let state = document.getElementById('state').value;
   weatherLocation.textContent = `${city}, ${state}`;
   fetch(
-    `http://api.openweathermap.org/geo/1.0/direct?q=${city},${state},USA&limit=1&appid=${apiKey}`
+    `https://api.openweathermap.org/geo/1.0/direct?q=${city},${state},USA&limit=1&appid=${apiKey}`
   )
     .then(function (response) {
       return response.json();

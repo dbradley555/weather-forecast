@@ -3,7 +3,7 @@ function getDefaultWeather() {
   let defaultState = 'TX';
   weatherLocation.textContent = `${defaultCity}, ${defaultState}`;
   fetch(
-    `http://api.openweathermap.org/geo/1.0/direct?q=${defaultCity},${defaultState},USA&limit=1&appid=${apiKey}`
+    `https://api.openweathermap.org/geo/1.0/direct?q=${defaultCity},${defaultState},USA&limit=1&appid=${apiKey}`
   )
     .then(function (response) {
       return response.json();

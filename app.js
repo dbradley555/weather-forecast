@@ -57,7 +57,7 @@ const apiKey = '711aa0e2365e7ec3ebd005a28ed7fc95';
 
 saveBtn.addEventListener('click', getCurrentWeather);
 
-getDefaultWeather();
+document.addEventListener('DOMContentLoaded', getDefaultWeather);
 
 saveBtn.addEventListener('click', (e) => {
   $('#locModal').modal('hide');
