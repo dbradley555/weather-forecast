@@ -15,6 +15,7 @@ const iconOne = document.getElementById('w-icon-one');
 const humidityOne = document.getElementById('w-humidity-one');
 const feelsLikeOne = document.getElementById('w-feels-like-one');
 const windOne = document.getElementById('w-wind-one');
+const dateOne = document.getElementById('w-location-one');
 
 // day two forecast
 const weatherLocationTwo = document.getElementById('w-location-two');
@@ -24,6 +25,7 @@ const iconTwo = document.getElementById('w-icon-two');
 const humidityTwo = document.getElementById('w-humidity-two');
 const feelsLikeTwo = document.getElementById('w-feels-like-two');
 const windTwo = document.getElementById('w-wind-two');
+const dateTwo = document.getElementById('w-location-two');
 
 // day three forecast
 const weatherLocationThree = document.getElementById('w-location-three');
@@ -33,6 +35,7 @@ const iconThree = document.getElementById('w-icon-three');
 const humidityThree = document.getElementById('w-humidity-three');
 const feelsLikeThree = document.getElementById('w-feels-like-three');
 const windThree = document.getElementById('w-wind-three');
+const dateThree = document.getElementById('w-location-three');
 
 // day four forecast
 const weatherLocationFour = document.getElementById('w-location-four');
@@ -42,6 +45,7 @@ const iconFour = document.getElementById('w-icon-four');
 const humidityFour = document.getElementById('w-humidity-four');
 const feelsLikeFour = document.getElementById('w-feels-like-four');
 const windFour = document.getElementById('w-wind-four');
+const dateFour = document.getElementById('w-location-four');
 
 // day five forecast
 const weatherLocationFive = document.getElementById('w-location-five');
@@ -51,6 +55,7 @@ const iconFive = document.getElementById('w-icon-five');
 const humidityFive = document.getElementById('w-humidity-five');
 const feelsLikeFive = document.getElementById('w-feels-like-five');
 const windFive = document.getElementById('w-wind-five');
+const dateFive = document.getElementById('w-location-five');
 
 const saveBtn = document.getElementById('w-change-btn');
 const apiKey = '711aa0e2365e7ec3ebd005a28ed7fc95';
